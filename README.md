@@ -50,12 +50,12 @@ The objective of this project is to build and evaluate multiple regression model
 - Removed duplicate records (~2%)
 - Handled missing values (~5%)
 - One-hot encoded categorical variables
-- Scaled numerical features (where necessary)
+- Scaled numerical features 
 
 ### 3️⃣ Feature Engineering
-- Engagement Rate = (likes + comments) / views
+- Engagement Rate
 - Watch Time Per View
-- Extracted day/month from date
+- Retention Rate
 
 ### 4️⃣ Model Building
 Trained and compared 5 regression models:
@@ -92,4 +92,21 @@ The project includes a Streamlit app that allows users to:
 - View model-driven insights
 
 ---
+##  Project Structure
+
+```text
+Content-Monetization-Modeler/
+│
+├── README.md
+│
+├── YouTube Ad Revenue Dataset.csv
+│
+├── app.py
+│
+├── best_model.pkl
+│
+└── project.py
+
+---
+ 
 

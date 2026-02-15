@@ -105,7 +105,10 @@ Content-Monetization-Modeler/
 │
 ├── best_model.pkl
 │
-└── project.py
+├── project.ipynb
+│
+└── requirements.txt
+
 
 ---
  
